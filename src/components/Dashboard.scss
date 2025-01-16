@@ -60,12 +60,12 @@
                     padding: 7px 0;
                     align-items: center;
 
-                    :target {
+                    :hover {
                         color: var(--993-ae-2, #993AE2);
                         font-family: Outfit;
                         font-size: 14px;
                         font-style: normal;
-                        font-weight: 500;
+                        font-weight: 600;
                         line-height: 150%;
                         border-radius: 8px;
                         background: var(--purple-100, #F3E8FF);
