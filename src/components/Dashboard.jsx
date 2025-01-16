@@ -20,7 +20,7 @@ function Dashboard() {
         setVisibleSection(section);
     };
     return (
-        <div className='mx-auto px-4 2xl-container mainDashboard flex flex-row'>
+        <div className='mx-auto px-4 2xl-container bg-white text-black mainDashboard flex flex-row'>
             <div className="left ">
                 <div className="img">
                     <img src={CapsuleLogo} alt="" />
