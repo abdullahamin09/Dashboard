@@ -24,7 +24,7 @@ function StaffDet(props) {
     };
   }, []);
 
-  const statusClass = props.status === 'inactive' ? 'red-status':'green-status';
+  const statusClass = props.status === 'Inactive' ? 'red-status':'green-status';
   return (
     <div>
       <div className="staff-dets-info-wrap grid grid-cols-12">
