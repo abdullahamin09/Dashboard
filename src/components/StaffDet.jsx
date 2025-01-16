@@ -26,7 +26,7 @@ function StaffDet(props) {
   return (
     <div>
       <div className="staff-dets-info-wrap grid grid-cols-12">
-        <div className="user flex items center col-span-6">
+        <div className="user flex items center col-span-5">
           <img src={props.image} alt="" />
           <div className="details flex flex-col">
             <p className='staff-name'>{props.name}</p>
@@ -39,7 +39,7 @@ function StaffDet(props) {
           </div>
         </div>
         <div className="joined col-span-2">{props.date}</div>
-        <div className="type">
+        <div className="type col-span-2">
           <div className="type-wrap">
             <p>{props.type}</p>
           </div>
@@ -49,8 +49,8 @@ function StaffDet(props) {
             <button type="button"
               className="dropdown-btn inline-flex  justify-center gap-x-1.5 rounded-md  px-3 py-2 shadow-xs focus:outline-none  focus:ring-0" id="menu-button" aria-expanded="true" aria-haspopup="true"
               onClick={toggleDropdown}
-              aria-expanded={isOpen}
-              aria-haspopup="true"
+              // aria-expanded ={isOpen}
+              // aria-haspopup="true"
             >
               <div className="dropdown-wrap">
                 <img src="/MenuDots.png" alt="" />
