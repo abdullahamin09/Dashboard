@@ -40,10 +40,10 @@ function Pages(props) {
           <StaffDet image="/images/Avatar3.png" name="wahab Rhye" email="oliva.rhye@gmail.com" status="Active" date="24 Jan, 2023" type="Nurse Practitioner" />
           <StaffDet image="/images/Avatar4.png" name="rehan Rhye" email="oliva.rhye@gmail.com" status="Active" date="24 Jan, 2023" type="GP" />
           <StaffDet image="/images/Avatar5.png" name="Olivia Rhye" email="oliva.rhye@gmail.com" status="Active" date="24 Jan, 2023" type="GP" />
-          <StaffDet image="/images/Avatar6.png" name="Olivia Rhye" email="oliva.rhye@gmail.com" status="inactive" date="24 Jan, 2023" type="Admin" />
+          <StaffDet image="/images/Avatar6.png" name="Olivia Rhye" email="oliva.rhye@gmail.com" status="Inactive" date="24 Jan, 2023" type="Admin" />
           <StaffDet image="/images/Avatar7.png" name="Olivia Rhye" email="oliva.rhye@gmail.com" status="Active" date="24 Jan, 2023" type="GP" />
           <StaffDet image="/images/Avatar8.png" name="Olivia Rhye" email="oliva.rhye@gmail.com" status="Active" date="24 Jan, 2023" type="System Admin" />
-          <StaffDet image="/images/Avatar9.png" name="Olivia Rhye" email="oliva.rhye@gmail.com" status="inactive" date="24 Jan, 2023" type="Practice Manager" />
+          <StaffDet image="/images/Avatar9.png" name="Olivia Rhye" email="oliva.rhye@gmail.com" status="Inactive" date="24 Jan, 2023" type="Practice Manager" />
           <StaffDet image="/images/Avatar1.png" name="Olivia Rhye" email="oliva.rhye@gmail.com" status="Active" date="24 Jan, 2023" type="GP" />
         </div>
       </div>
