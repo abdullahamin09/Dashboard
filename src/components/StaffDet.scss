@@ -53,6 +53,14 @@
             width: fit-content;
             height: 32px;
 
+            .green-status {
+                color: green;
+            }
+
+            .red-status {
+                color: red;
+            }
+
             >p {
                 color: var(--Avatar-company-logo-Success-700, #027A48);
                 text-align: center;
@@ -122,6 +130,7 @@
                 height: 24px;
                 border: 1px;
                 border-radius: 50%;
+
                 :hover {
                     background-color: #F3F4F6;
                     fill: var(--Gray-100, #F3F4F6);

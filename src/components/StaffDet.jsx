@@ -23,6 +23,8 @@ function StaffDet(props) {
       document.removeEventListener('mousedown', closeDropdown);
     };
   }, []);
+
+  const statusClass = props.status === 'inactive' ? 'red-status':'green-status';
   return (
     <div>
       <div className="staff-dets-info-wrap grid grid-cols-12">
@@ -35,7 +37,7 @@ function StaffDet(props) {
         </div>
         <div className="status col-span-2">
           <div className="status-wrap flex items-center justify-center">
-            <p>{props.status}</p>
+            <p className={statusClass} >{props.status}</p>
           </div>
         </div>
         <div className="joined col-span-2">{props.date}</div>
