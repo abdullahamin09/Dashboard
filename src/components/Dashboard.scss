@@ -60,16 +60,6 @@
                     padding: 7px 0;
                     align-items: center;
 
-                    :hover {
-                        color: var(--993-ae-2, #993AE2);
-                        font-family: Outfit;
-                        font-size: 14px;
-                        font-style: normal;
-                        font-weight: 600;
-                        line-height: 150%;
-                        border-radius: 8px;
-                        background: var(--purple-100, #F3E8FF);
-                    }
                     .itemsDetails-link {
                         display: flex;
                         align-items: center;
@@ -77,16 +67,25 @@
                         height: 30px;
                         gap: var(--0, 0px);
                         align-self: stretch;
-                        color: var(--slate-700, #334155);
+                        color: var(--slate-700, #334155); // Default text color
                         font-family: Outfit;
                         font-size: 14px;
                         font-style: normal;
                         font-weight: 400;
                         line-height: 150%;
                         padding: 0 20px;
-                    }
+                        text-decoration: none; // Removes underline from links
 
+                        // Hover effect for the links
+                        &:hover {
+                            color: var(--993-ae-2, #993AE2); // Change text color on hover
+                            background: var(--purple-100, #F3E8FF); // Change background color on hover
+                            font-weight: 500; // Make the text bold on hover
+                            border-radius: 8px; // Apply border-radius on hover
+                        }
+                    }
                 }
+
 
             }
         }
@@ -94,10 +93,11 @@
 
     .right {
         width: -webkit-fill-available;
-        
+
         .navbar {
             height: 60px;
             padding-right: 20px;
+
             .morning {
                 >p {
                     color: #0F172A;
