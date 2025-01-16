@@ -15,7 +15,7 @@ function Pages(props) {
         <div className="search-wrap flex items-center">
           <div className="staffSearchbar">
             <img src={Searchbar} alt="" />
-            <input className='searBar_set' placeholder='Search by name, email, phone' type="text" name="" id="" />
+            <input className='searBar_set ' placeholder='Search by name, email, phone' type="text" name="" id="" />
           </div>
           <div className="active">
             <input className='checkbox' type="checkbox" name="active" id="active" />
