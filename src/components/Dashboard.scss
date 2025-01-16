@@ -94,10 +94,10 @@
 
     .right {
         width: -webkit-fill-available;
-
+        
         .navbar {
             height: 60px;
-
+            padding-right: 20px;
             .morning {
                 >p {
                     color: #0F172A;
@@ -185,6 +185,7 @@
         }
 
         .pages {
+            padding-right: 20px;
             background-color: #EAECF0;
             padding-top: 30px;
             padding-left: 24px;
